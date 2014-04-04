@@ -29,7 +29,8 @@ gulp.task('default', function() {
 
 var tasks = [
   require('./hello'),
-  require('./rename')
+  require('./rename'),
+  require('./condensed')
 ];
 
 

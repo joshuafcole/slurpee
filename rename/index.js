@@ -16,7 +16,7 @@ function explainRename() {
 
   log(shared.highlight(arguments.callee.caller.toString()));
 
-  log('Next task: glob');
+  log('Next task: condensed');
 }
 
 gulp.task('rename', function renameTask() {
