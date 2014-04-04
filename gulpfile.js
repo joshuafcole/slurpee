@@ -31,7 +31,8 @@ var tasks = [
   require('./hello'),
   require('./rename'),
   require('./condensed'),
-  require('./glob')
+  require('./glob'),
+  require('./dependencies')
 ];
 
 
