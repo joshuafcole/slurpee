@@ -40,11 +40,11 @@ gulp.task('hello', function helloTask() {
   explainHello();
 
   // We create our source, as previously mentioned. this variable will always point to the head of the pipeline.
-  var source = gulp.src('hello/input.js');
+  var source = gulp.src('hello/src/input.js');
 
   // We add our first pipe, in this case to gulp.dest.
   // This variable will track the tail of our current pipeline.
-  var pipeline = source.pipe(gulp.dest('hello/build'));
+  var pipeline = source.pipe(gulp.dest('hello/dst'));
 
   // We return the END of the pipeline to let gulp register event handlers on it.
   // By doing this, we let gulp listen for the stream to close to determine when an async task has completed.
