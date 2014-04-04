@@ -26,7 +26,8 @@
     "gulp": "^3.6.0",
     "chalk": "^0.4.0",
     "console-highlight": "^0.1.0",
-    "gulp-rename": "^1.2.0"
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.1"
   },
   "devDependencies": {}
 }
