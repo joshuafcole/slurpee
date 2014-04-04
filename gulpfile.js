@@ -28,7 +28,8 @@ gulp.task('default', function() {
 });
 
 var tasks = [
-  require('./hello')
+  require('./hello'),
+  require('./rename')
 ];
 
 
@@ -38,6 +39,3 @@ gulp.task('tasks', function() {
     log(task.name, ' - ', task.description);
   });
 });
-
-function explainHello2() {
-}
