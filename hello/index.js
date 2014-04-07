@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var shared = require('../shared');
 
-function explainHello() {
+function explain() {
   var log = shared.logger();
 
   log('Gulp is a streaming task runner.');
@@ -37,7 +37,7 @@ function explainHello() {
 }
 
 gulp.task('hello', function helloTask() {
-  explainHello();
+  explain();
 
   // We create our source, as previously mentioned. this variable will always point to the head of the pipeline.
   var source = gulp.src('hello/src/input.js');

@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var shared = require('../shared');
 
-function explainDependencies() {
+function explain() {
   var log = shared.logger();
 
   log('How do we specify dependencies?');
@@ -18,7 +18,7 @@ function explainDependencies() {
 
 // Runs the glob task, then renames base.scss to dependencies/dst/output.css
 gulp.task('dependencies', ['glob'], function renameTask() {
-  explainDependencies();
+  explain();
 
   return gulp.src('glob/src/dst/base.css')
   .pipe(rename('output.css'))

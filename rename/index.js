@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var shared = require('../shared');
 
-function explainRename() {
+function explain() {
   var log = shared.logger();
 
   log('What if we want to change the name?');
@@ -20,7 +20,7 @@ function explainRename() {
 }
 
 gulp.task('rename', function renameTask() {
-  explainRename();
+  explain();
 
   var source = gulp.src('rename/src/input.js');
 

@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var shared = require('../shared');
 
-function explainGlob() {
+function explain() {
   var log = shared.logger();
 
   log('What if we want to process multiple files?');
@@ -20,7 +20,7 @@ function explainGlob() {
 }
 
 gulp.task('glob', function renameTask() {
-  explainGlob();
+  explain();
 
   // /**/ - At any depth (including depth 0) under the prefix directories.
   // *.scss - Any scss files under the prefix directories.
