@@ -13,7 +13,7 @@ function explainDependencies() {
 
   log(shared.highlight(arguments.callee.caller.toString()));
 
-  log('Great work! If you know more that I haven\'t yet covered, make a pull request!');
+  log('Next task: series');
 }
 
 // Runs the glob task, then renames base.scss to dependencies/dst/output.css
