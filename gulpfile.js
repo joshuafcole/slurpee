@@ -12,7 +12,7 @@ gulp.task('default', function() {
 
   log('Welcome to slurpee!         ,____                 ');
   log('-------------------         `¯¯¯\\\\              ');
-  log('                          _______\\\\_______      ');
+  log('                          _______' + chalk.underline('\\\\') + '_______      ');
   log('Slurpee will help you    |----------------|       ');
   log('learn about gulp, the     |    '+slurpee+'   |    ');
   log('streaming task runner.    |              |        ');
